@@ -1,6 +1,6 @@
 $hostname_facts = $facts['hostname']
-$environment_facts = 'prd'
-#$environment_facts = $facts['ambiente']
+#$environment_facts = 'prd'
+$environment_facts = $facts['ambiente']
 $scripts_motd_dir_default = '/etc/update-motd.d/'
 $scripts_motd_dir_usr = '/usr/lib/motd.d/'
 
